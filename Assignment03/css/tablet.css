@@ -1,0 +1,91 @@
+@media screen and (max-width: 860px) {
+    #banner {
+        background-image: url(../images/banner.jpg);
+        height: 100% !important;
+        text-align: center;
+        color: #fff;
+        background-repeat: round;
+        background-size: 100%;
+        margin: auto;
+        width: 100%;
+    }
+
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 5px;
+        line-height: 30px;
+    }
+
+    #job-info {
+        width: 100%;
+        margin: auto;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        color: rgb(0 0 0 / 58%);
+    }
+
+    #about {
+        width: 100%;
+        margin: auto;
+    }
+
+    sp_top_content {
+        display: none;
+    }
+
+    #banner h1 {
+        font: caption;
+        font-size: 24px;
+        margin-top: 12%;
+    }
+
+    .padding_top {
+        padding: 50px 0px;
+    }
+
+    .nav-bar_sp1 {
+        display: block;
+    }
+
+    .nav-bar_sp1 i {
+        display: block;
+        color: #009fe6;
+    }
+
+    .gro1 , .gro2{
+        display: flex;
+        font-size: 24px;
+        margin-left: 1cm;
+    }
+
+    section > .container {
+        width: 100%;
+        margin: auto;
+        display: block;
+        padding: 20px 0px;
+    }
+
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .brboxlef2 {
+        border-left: 0px solid #df8507;
+        /* padding-left: 20px; */
+    }
+
+    .grid-container-bot {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 10px;
+    }
+
+    .sp_top_content {
+        display: none !important;
+    }
+}

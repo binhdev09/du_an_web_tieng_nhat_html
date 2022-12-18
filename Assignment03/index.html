@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/laptop.css">
+	<link rel="stylesheet" href="./css/mobile.css">
+	<link rel="stylesheet" href="./css/tablet.css">
+	<link rel="stylesheet" href="./css/font.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+	<title>Assignment 02</title>
+</head>
+<body>
+<header class="clearfix">
+	<h1>
+		<a href="卒業作品.html">
+			<img id="logo" src="images/logo1.png" alt="language school">
+		</a>
+	</h1>
+	<div class="navbar">
+		<div class="dropdown">
+			<button class="nut_dropdown"> Home </button>
+		</div>
+		<div class="dropdown">
+			<button class="nut_dropdown"> Coach </button>
+		</div>
+		<div class="dropdown">
+			<button class="nut_dropdown"> JLPT </button>
+			<div class="content_dropdown">
+				<a href="https://www.jlpt.jp/samples/n1/index.html" target="_blank">For N1</a>
+				<a href="https://www.jlpt.jp/samples/n2/index.html" target="_blank">For N2</a>
+				<a href="https://www.jlpt.jp/samples/n3/index.html" target="_blank">For N3</a>
+				<a href="https://www.jlpt.jp/samples/n4/index.html" target="_blank">For N4</a>
+				<a href="https://www.jlpt.jp/samples/n5/index.html" target="_blank">For N5</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="nut_dropdown"> Recommend book </button>
+			<div class="content_dropdown">
+				<a href="https://www.jlpt.jp/reference/books.html" target="_blank">For N1</a>
+				<a href="https://www.jlpt.jp/reference/books.html" target="_blank">For N2</a>
+				<a href="https://www.jlpt.jp/reference/books.html" target="_blank">For N3</a>
+				<a href="https://www.jlpt.jp/reference/books.html" target="_blank">For N4</a>
+				<a href="https://www.jlpt.jp/reference/books.html" target="_blank">For N5</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="nut_dropdown"> Support </button>
+		</div>
+		<div class="dropdown">
+			<button class="nut_dropdown"> Language </button>
+		</div>
+	</div>
+</header>
+	<div id="banner" class="addfont1 padding_top">
+<!--		<h1>Nguyễn Văn Bình</h1>-->
+<!--		<span>Full Stack Developer</span>-->
+	</div>
+	<section id="nav-bar">
+		<nav class="container top_content sp_top_content">
+			<ul>
+				<li class="gro1"><a href="#">JLPT N1</a><i class="icon-mail-alt"></i></li>
+				<li class="gro2"><a href="#">JLPT N2</a><i class="icon-mail-alt"></i></li>
+				<li class="gro2"><a href="#">JLPT N3</a><i class="icon-mail-alt"></i></li>
+				<li class="gro1"><a href="#">JLPT N4</a><i class="icon-mail-alt"></i></li>
+				<li class="gro2"><a href="#">JLPT N5</a><i class="icon-mail-alt"></i></li>
+			</ul>
+		</nav>
+	</section>
+<style>
+
+</style>
+<!--	sử dụng bootstrap 5-->
+<section id="nav-bar">
+	<nav class="container top_content sp_top_content">
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><div class="bot-img01"><img src="images/n1.jpg"></div></div>
+				<div class="swiper-slide"><div class="bot-img01"><img src="images/n2.jpg"></div></div>
+				<div class="swiper-slide"><div class="bot-img01"><img src="images/n3.jpg"></div></div>
+				<div class="swiper-slide"><div class="bot-img01"><img src="images/n4.jpg"></div></div>
+				<div class="swiper-slide"><div class="bot-img01"><img src="images/n5.jpg"></div></div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</nav>
+</section>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+	var swiper = new Swiper(".mySwiper", {
+		pagination: {
+			el: ".swiper-pagination",
+			type: "fraction",
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+	});
+</script>
+
+<!-- Swiper JS -->
+	<div id="about" class="bg-grey">
+		<div class="row">
+			<div class="col-sm-6 grid-item">
+				<h3 class="section-title">どうして日本語を勉強していますか。</h3>
+				<p>
+					私の子供の頃の夢は日本語を学ぶことです。私の人生には、興味を失ったことがたくさんあります。しかし、日本語に興味を持ってから10年が経ちましたが、それでも失っていません。私は大学で3年近く日本学科を勉強していますが、もっと学びたい。日本語をもっと上手になりたいです。だから、これからも日本語を勉強していきたいと思っています。
+				</p>
+			</div>
+			<div class="col-sm-6 grid-item11">
+				<h3 class="section-title">ぜ日本語が好きですか。</h3>
+				<p>実は、私は日本のアニメが大好きです。数年まえ、ナルトというアニメをよく見ていました。ナルトを始めて見たとき、私は「え～？これって日本語か？いいね！日本語を勉強したい！日本のことをもっと知りたいな～」と思いました。だからぜひ日本語を勉強したいと思いました。それが理由です。</p>
+			</div>
+		</div>
+	</div>
+<!--		hiển thị cá nhân -->
+<section id="project">
+	<div class="container addfont5">
+		<h1 class="section-title5">
+			日本語レベル
+		</h1>
+		<div class="grid-container-bot">
+			<div class="grid-item-bot">
+				<div class="bot-img01"><img src="images/n1.jpg"></div>
+				<div class="grid-container3">
+					
+				</div>
+				<div>
+					<table>
+						<tr>
+							<td>プロフェッショナル</td>
+							<td>価値観の近い人々と踏み込んだ会話ができる</td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>政治や思想などセンシティブな話題もこなせる </td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>価値観が異なる相手とも、適切な表現を用いて会話できる </td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="grid-item-bot">
+				<div class="bot-img01"><img src="images/n2.jpg"></div>
+				<div class="grid-container3">
+					
+				</div>
+				<div>
+					<table>
+						<tr>
+							<td>上級</td>
+							<td>身近な話題で感想や考えを話せる</td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>ネイティブスピーカーと対等に話せる </td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>ジョークやネイティブ特有の表現を理解、活用できる </td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="grid-item-bot">
+				<div class="bot-img01"><img src="images/n3.jpg"></div>
+				<div class="grid-container3">
+				</div>
+				<div>
+					<table>
+						<tr>
+							<td>中上級</td>
+							<td>想定内のトラブルに対応できる</td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>複数のネイティブスピーカーと身近な話題で会話できる </td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>日本のしきたりや伝統などを詳しく説明できる </td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+
+			<div class="grid-item-bot">
+				<div class="bot-img01"><img src="images/n4.jpg"></div>
+				<div class="grid-container3">
+					
+				</div>
+				<div>
+					<table>
+						<tr>
+							<td>中級</td>
+							<td>身近な話題で意思を伝えられる</td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>近況、交通状況について話せる </td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>価プレゼンテーションを効果的に開始・終了できる</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="grid-item-bot">
+				<div class="bot-img01"><img src="images/n5.jpg"></div>
+				<div class="grid-container3">
+					
+				</div>
+				<div>
+					<table>
+						<tr>
+							<td>初級</td>
+							<td>その言語を学び始めたばかり</td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>自分や身近な人を紹介できる  </td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>会議のアポイントメントが取れる</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="grid-item-bot">
+				<div class="bot-img01"><img src="images/n5.jpg"></div>
+				<div class="grid-container3">
+					
+				</div>
+				<div>
+					<table>
+						<tr>
+							<td>プロフェッショナル</td>
+							<td>価値観の異なる相手とも円滑に意思疎通できる</td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>信念が真逆の相手とも対話し、円滑な関係を築ける   </td>
+						</tr>
+						<tr>
+							<td>ゴール</td>
+							<td>ビジネス上の危機管理ができる</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--	phần kinh nghiệm-->
+	<section id="job-info">
+		<div class="grid-container1 addfont5">
+			<div class="grid-item1">
+				<div class="content_box">
+					<h3>学教室・オンラインともに、ベルリッツの国内の外国人教師が実施<i class="ic-toolbox"></i></h3>
+					<li>比較的安価なオンラインレッスンは、学生やアルバイトが教えることが多く、「どのように教えたら上達するか」といった教師へのトレーニングが行き届きにくいというのが実情です。</li>
+					<p>ベルリッツのレッスンは、アメリカ、ヨーロッパ、アジア等、ビジネス経験豊富な国内でトレーニングを受けた外国人教師が担当。だから、ネイティブに通じる語学力が身につきます。</p>
+					<div class="grid-container6">
+						<div class="grid-item6 abs2"></div>
+						<div class="grid-item6 abs2 abs4"></div>
+						<div class="grid-item6 abs2 abs4"></div>
+						<div class="grid-item6 abs3"></div>
+					</div>
+				</div>
+				<div class="content_box">
+					<h3>オンラインレッスンは、URL 1クリックで、簡単にご自宅などから受講いただけます<i class="ic-tools-2"></i></h3>
+					<li>スマホ、PCが苦手な方でも簡単。</li>
+					<p>レッスン前日までに、ご登録いただいたメールアドレスに送られたURLをクリックするだけで簡単にレッスンを受講することができます</p>
+					<div class="grid-container6">
+						<div class="grid-item6 abs2"></div>
+						<div class="grid-item6 abs2 abs4"></div>
+						<div class="grid-item6 abs2 abs4"></div>
+						<div class="grid-item6 abs3"></div>
+					</div>
+				</div>
+				<div class="content_box">
+					<h3>教室・オンライン自由選択受講は英語ほか、世界十数ヵ国語に対応<i class="ic-telescope"></i></h3>
+					<li>レッスンは、面倒な手続きはなくフレキシブルに受講できます。また、追加費用はかからず、受講履歴も引き継がれますので安心です。 </li>
+					<div class="grid-container6">
+						<div class="grid-item6 abs2"></div>
+						<div class="grid-item6 abs2 abs4"></div>
+						<div class="grid-item6 abs2 abs4"></div>
+						<div class="grid-item6 abs3"></div>
+					</div>
+				</div>
+			</div>
+			<div class="grid-item1">
+				<div class="content_box">
+					<h3>海外赴任帯同の日常会話も、おまかせください<i class="ic-pencil"></i></h3>
+					<li>ご家族やご友人、ご同僚と一緒に受講が可能です。お気軽にご相談ください。
+						※最大8名でのグループ　※レベルや年齢によって、ご要望に添えない場合もございます。</li>
+					<div class="grid-container6">
+						<div class="grid-item6 abs2"></div>
+						<div class="grid-item6 abs2 abs4"></div>
+						<div class="grid-item6 abs2 abs4"></div>
+						<div class="grid-item6 abs3"></div>
+					</div>
+				</div>
+				<div class="grid-item1">
+					<div class="content_box">
+						<h3>まったくの初心者の方も、ご安心ください<i class="ic-pencil"></i></h3>
+						<li>教師が理解できるようフォローするので、心配ありません。
+							レッスンは学ぶ外国語で行われますが、理解しやすいスピードで話すだけでなく、身振り手振りを交えたり、ジェスチャーを行うことで、あなたがきちんと理解できるようフォローします。</li>
+						<div class="grid-container6">
+							<div class="grid-item6 abs2"></div>
+							<div class="grid-item6 abs2 abs4"></div>
+							<div class="grid-item6 abs2 abs4"></div>
+							<div class="grid-item6 abs3"></div>
+						</div>
+					</div>
+				</div>
+				<div class="content_box">
+					<h3>オンライン英会話学習を始めたい方に<i class="ic-pencil"></i></h3>
+					<li>時間と場所、語学レベルが自由に選べる、ベルリッツのオンライン英会話。
+						自宅や職場から、リモートで安心して学べます。
+						世界言語である英語を習得して、将来の可能性を大きく広げませんか？</li>
+					<div class="grid-container6">
+						<div class="grid-item6 abs2"></div>
+						<div class="grid-item6 abs2 abs4"></div>
+						<div class="grid-item6 abs2 abs4"></div>
+						<div class="grid-item6 abs3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--	giải thưởng đạt được-->
+	<section id="certificate" class="bg-grey">
+		<div class="container addfont5">
+			<h3 class="section-title2">日本語能力試験　JLPT</h3>
+			<div class="grid-container2">
+				<div class="grid-item2 brbox_big">
+					<div class="box-award2 brboxlef1">
+						<div class="img-funix-2"><img src="images/JLPTN1.webp" alt="Sakura" /></div>
+						
+					</div>
+				</div>
+				<div class="grid-item2 brbox_big">
+					<div class="box-award2 brboxlef2">
+						<div class="img-funix-2"><img src="images/JLPTN2.webp" alt="Sakura" /></div>
+						<div class="spac001">
+							
+						</div>
+					</div>
+				</div>
+				<div class="grid-item2 brbox_big">
+					<div class="box-award2 brboxlef1">
+						<div class="img-funix-2"><img src="images/JLPTN3.webp" alt="Sakura" /></div>
+						
+					</div>
+				</div>
+				<div class="grid-item2 brbox_big">
+					<div class="box-award2 brboxlef2">
+						<div class="img-funix-2"><img src="images/JLPTN4.webp" alt="Sakura" /></div>
+						<div class="spac001">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="certificate" class="bg-grey">
+		<div class="container addfont5">
+			<div class="contact">
+				<h1 class="contact-ttl">お問い合わせ</h1>
+
+				<form action="">
+					<table class="contact-table">
+						<tbody><tr>
+							<th class="contact-item">名前</th>
+							<td class="contact-body">
+								<input type="text" name="名前" class="form-text" placeholder="名前入力">
+							</td>
+						</tr>
+						<tr>
+							<th class="contact-item">性別</th>
+							<td class="contact-body">
+								<label class="contact-sex">
+									<input type="radio" name="性別">
+									<span class="contact-sex-txt">男</span>
+								</label>
+								<label class="contact-sex">
+									<input type="radio" name="性別">
+									<span class="contact-sex-txt">女</span>
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<th class="contact-item">メール</th>
+							<td class="contact-body">
+								<input type="email" name="メール" class="form-text" placeholder="メール入力">
+							</td>
+						</tr>
+						<tr>
+							<th class="contact-item">電話</th>
+							<td class="contact-body">
+								<input type="tel" name="電話" class="form-text" placeholder="電話入力">
+							</td>
+						</tr>
+						<tr>
+							<th class="contact-item">職業</th>
+							<td class="contact-body">
+								<select name="職業" class="form-select">
+									<option>選択</option>
+									<option>学生</option>
+									<option>主婦</option>
+									<option>会社員</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th class="contact-item">お問い合わせ内容</th>
+							<td class="contact-body">
+								<textarea name="問い合わせ" class="form-textarea"></textarea>
+							</td>
+						</tr>
+						</tbody></table>
+
+					<input class="contact-submit" type="submit" value="送信">
+				</form>
+			</div>
+		</div>
+	</section>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+	var swiper = new Swiper(".mySwiper", {
+		pagination: {
+			el: ".swiper-pagination",
+			type: "fraction",
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+	});
+</script>
+<!--phần cuối trang -->
+	<section id="footer" class="bg-grey">
+		<div class="container4">
+			<div class="grid-container4">
+				<div class="grid-item4"><i class="icon-facebook-circled abs8"></i>Facebook</div>
+				<div class="grid-item4"><i class="icon-linkedin-circled abs8"></i>Linkedin</div>
+				<div class="grid-item4"><i class="icon-github-circled abs8"></i>Github</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
